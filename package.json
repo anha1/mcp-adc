@@ -1,0 +1,29 @@
+{
+  "name": "mcp-adc",
+  "version": "0.1.0",
+  "description": "This library provides MCP3008/MCP3208 analog-to-digital converters support.",
+  "main": "mcp-adc.js",
+  "dependencies": {
+    "spi": "^0.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anha1/mcp-adc.git"
+  },
+  "keywords": [
+    "MCP3008",
+    "MCP3208",
+    "SPI",
+    "RaspberryPi",
+    "ADC",
+    "DIY"
+  ],
+  "author": "anha1",
+  "license": "Apache2.0",
+  "bugs": {
+    "url": "https://github.com/anha1/mcp-adc/issues"
+  }
+}
