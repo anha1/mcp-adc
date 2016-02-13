@@ -1,6 +1,6 @@
-#mcp-adc Node.js module: MCP3208/MCP3008 SPI analog-to-digital converters support for RaspberryPi.
-
-This library provides [MCP3208(12bit)](http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf) and
+#mcp-adc: MCP3208/MCP3008 SPI analog-to-digital converters support for RaspberryPi.
+[mcp-adc](https://www.npmjs.com/package/mcp-adc) Node.js module provides 
+[MCP3208(12bit)](http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf) and
 [MCP3008(10bit)](https://www.adafruit.com/datasheets/MCP3008.pdf)  analog-to-digital converters support. These chips
 are a good option for RaspberryPi DIY projects 
 (see a sample with a wiring diagram 
@@ -41,10 +41,14 @@ It is also possible to use MCP3008:
 var adc = new McpAdc.Mcp3008();
 ```
 
-And provide custom reference voltage and/or SPI instance:
+and provide custom reference voltage and/or SPI instance:
 ```
 var adc = new McpAdc.Mcp3208({
     voltage: 1.3, //1.3v
     spi: mySpiInstance
 });
 ```
+
+## Blynk sample
+Here is a simple project that saves sensors data to [Blynk](http://www.blynk.cc/) using this library: 
+[blynk-monitoring](https://github.com/anha1/blynk-monitoring).
