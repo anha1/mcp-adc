@@ -1,12 +1,12 @@
-#mcp-adc: MCP3208/MCP3008 SPI analog-to-digital converters support for RaspberryPi.
-[mcp-adc](https://www.npmjs.com/package/mcp-adc) Node.js module provides 
+#MCP3008/MCP3208 analog-to-digital converters support for Raspberry Pi.
+This Node.js module provides 
 [MCP3208(12bit)](http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf) and
 [MCP3008(10bit)](https://www.adafruit.com/datasheets/MCP3008.pdf)  analog-to-digital converters support. These chips
-are a good option for RaspberryPi DIY projects 
+are a good option for Raspberry Pi DIY projects 
 (see a sample with a wiring diagram 
-[here](https://learn.adafruit.com/reading-a-analog-in-and-controlling-audio-volume-with-the-raspberry-pi/connecting-the-cobbler-to-a-mcp3008)).
+[here](http://www.rpi-spy.co.uk/2013/10/analogue-sensors-on-the-raspberry-pi-using-an-mcp3008/)).
 
-If using with RaspberryPi, please do not forget to enable SPI support using "raspi-config" first.
+If using with Raspberry Pi, please do not forget to enable SPI support using [raspi-config](https://www.raspberrypi.org/documentation/configuration/raspi-config.md).
 
 ## Code sample
 ```
