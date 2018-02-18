@@ -49,6 +49,3 @@ var adc = new McpAdc.Mcp3208({
 });
 ```
 
-## Blynk sample
-Here is a simple project that saves sensors data to [Blynk](http://www.blynk.cc/) using this library: 
-[blynk-monitoring](https://github.com/anha1/blynk-monitoring).
